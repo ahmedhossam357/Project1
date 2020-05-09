@@ -1,100 +1,148 @@
-nav ul li a{
-    margin: 0px 5px;
-    color: #fff !important;
-}
-nav ul li a:hover{
-    color: #8e7754 !important;
-}
-.navbar
-{
-    background-color: rgba(0, 0, 0, 0.6) !important;
-}
-/* end navbar css */
 header
 {
-    background-image: url('../images/drew-coffman-1872.jpg');
+    height: 100vh;
+    background-image: url('../images/events-heavenly-header.jpg');
     background-size: 100% 100%;
+}
+header .layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+header .text
+{
     height: 100vh;
 }
-header .content
+.layer h1
 {
-    font-size: 1.2rem;
+    font-size: 50px;
 }
-.btn-learn
+.main
 {
-    background-color: #8e7754;
+    z-index: 999999999;
+}
+.menu-bar
+{
+    width: 25%;
+    height: 100%;
+    left: -237px;
+    z-index: 999;
+    position: fixed;
+}
+.text{
+    width: 75%;
+}
+.side-bar{
+    width: 70%;
+    height: 100%;
+}
+.side-bar a
+{
+    display: block;
+    line-height: 70px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    transition: all 1s;
+}
+.side-bar a:hover
+{
+    padding-left: 20px;
+    color: rgba(255, 0, 0, 0.4);
+    
+}
+.open
+{
+    width: 30%;
+    height: 100%;
+}
+.open p
+{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.side-bar i{
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.side-bar i:hover
+{
+    color: rgba(255, 0, 0, 0.4);
+}
+.side-bar #links
+{
+    margin: 40px 0px;
+}
+section
+{
+    overflow: hidden;
+}
+.singger .content h3
+{
+    background-color: rgba(255, 0, 0, 0.4);
+    padding: 8px 0px;
+    cursor: pointer;
     color: #fff;
 }
-/* end header CSS */
-.item-who
-{
-    font-size: 1.3rem;
-}
-.item-who p
-{
-    font-size: 18px;
-    color: gray;
-    margin-left: 8px;
-}
-.who-icons i
-{
-    color: #8e7754;
-    border-color: #8e7754;
-}
-/* end of who section */
-.location
+.singger .content div
 {
     background-color: #f0f0f0;
 }
-/* end of location section */
-.contact
+.singer .content p
 {
-    background-color: #f0f0f0;
-}
-.contact .contact-icons i
-{
-    color: #fff;
-    background-color: #8e7754;
-    border-color: #8e7754;
-}
-.contact .contact-icons p
-{
-    color: gray;
-    margin-left: 8px;
-}
-/* end of contact section */
-.footer
-{
-    background-color: #403d38;
-}
-.footer p
-{
+    overflow: hidden;
+    padding: 15px 10px;
     font-size: 14px;
-    border-color: #8e7754;
+    line-height: 18px;
 }
-.item-map
+.singer .o , .singer .w , .singer .q
 {
-    background-image: url('../images/contact-details-map.png');
+    display: none;
+}
+.clock
+{
+    background-image: url('../images/ss.jpg');
     background-size: 100% 100%;
 }
-footer
+.clock .layer1
 {
-    background-color: #353330;
+    background-color: rgba(255, 0, 0, 0.4);
+    background-size: 100% 100%;
 }
-.footer-icons i
+.clock .layer1 .item
 {
+    padding: 50px 0px;
+}
+.clock .layer1 .item h5
+{
+    font-size: 22px;
+}
+.icons i
+{
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px 3px;
+}
+.icons i:hover
+{
+    background-color: rgba(255, 0, 0, 0.8);
     color: #fff;
-    margin: 0px 5px;
-    font-size: 20px;
+    border-color: rgba(255, 0, 0, 0.8);
 }
-
-.fa-google-plus-g
+.mainly p a
 {
-    background-color: red;
-    border-color: red !important;
+    color: rgba(255, 0, 0, 0.8);
+    text-decoration: none;
 }
-.fa-twitter,.fa-linkedin-in,.fa-facebook-f
+.char-count
 {
-    background-color: blue;
-    border-color: blue !important;
+    font-size: 26px;
 }
